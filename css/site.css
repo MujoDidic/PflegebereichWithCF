@@ -43,12 +43,22 @@ code {
 .content {
     min-height: 300px;
     background: #1ecee6;
+    border: solid 3px;
+    border-color: #9cc3eb;
+    border-radius: 10px;
     
 }
 
 .content.bg-alt {
     background: #2d3033;
+    
+}
 
+.content.bg-danger{
+    min-height: 250px;
+    width: 850px;
+    background-color: mediumslateblue;
+    border:solid 2,5px;
 }
 
 .sidebar-top {
